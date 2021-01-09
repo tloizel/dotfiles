@@ -11,6 +11,7 @@
 
 [core]
   pager = less -FRSX
+	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
   co = checkout
@@ -48,3 +49,8 @@
 
 [pull]
   rebase = false
+[url "https://"]
+	insteadOf = git://
+[user]
+	email = thomas.loizel@gmail.com
+	name = Thomas Loizel
